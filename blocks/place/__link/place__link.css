@@ -1,0 +1,21 @@
+.place__link {
+    position: relative;
+    color: #fff;
+    font-style: 18px;
+    line-height: 22px;
+    text-decoration: none;
+    transition: opacity .2s ease-out;
+}
+
+.place__link:hover {
+    opacity: .4;
+}
+
+.place__link::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+}
