@@ -11,7 +11,7 @@
 
 @media only screen and (max-width: 1024px) {
     .photo-grid {
-        padding: 88px 24px 0 24px; 
+        padding: calc(88px + (92 - 88) * ((100vw - 768px)/ (1024 - 768))) 24px 0 24px; 
     }
 }
 

@@ -12,6 +12,12 @@
 
 @media only screen and (max-width: 1024px) {
     .cover {
-        padding: 90px 0 0 0;
+        padding: calc(90px + (92 - 90) * ((100vw - 768px)/ (1024 - 768))) 0 0 0;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .cover {
+        padding: calc(66px + (90 - 66) * ((100vw - 320px)/ (767 - 320))) 0 0 0;
     }
 }
