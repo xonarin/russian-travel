@@ -8,3 +8,26 @@
 .place:last-child {
     margin: 0;
 }
+
+@media screen and (max-width: 1024px) {
+    .place {
+        grid-template-columns: minmax(min-content, 440px) minmax(min-content, 456px);
+        gap: 48px 32px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .place {
+        grid-template-columns: minmax(min-content, 340px) minmax(min-content, 352px);
+        gap: 48px 28px;
+        margin: 0 0 73px 0;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .place {
+        grid-template-columns: minmax(min-content, 1fr);
+        gap: 32px;
+        margin: 0 0 50px 0;
+    }
+}

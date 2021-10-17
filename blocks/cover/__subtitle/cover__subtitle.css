@@ -6,3 +6,10 @@
     text-align: center;
     margin: 0;
 }
+
+@media only screen and (max-width: 767px) {
+    .cover__subtitle {
+        font-size: calc(14px + (18 - 14) * ((100vw - 320px)/ (767 - 320)));
+        line-height: calc(22 / 18);
+    }
+}

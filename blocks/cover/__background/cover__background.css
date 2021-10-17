@@ -26,3 +26,21 @@
 .cover__background:hover::before {
     opacity: 0.8; 
 }
+
+@media screen and (max-width: 1279px) {
+    .cover__background {
+        min-height: calc(100vw * 740 / 1279);
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__background {
+        min-height: calc(100vw * 640 / 1024);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cover__background {
+        min-height: calc(100vw * 480 / 767);
+    }
+}

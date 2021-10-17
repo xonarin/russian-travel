@@ -9,3 +9,10 @@
 .header__lang-link:hover {
     opacity: .4;
 }
+
+@media only screen and (max-width: 767px) {
+    .header__lang-link {
+        font-size: calc(18px + (24 - 18) * ((100vw - 320px)/ (767 - 320)));
+        line-height: calc(28 / 24);
+    }
+}

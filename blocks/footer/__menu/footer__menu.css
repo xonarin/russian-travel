@@ -1,0 +1,14 @@
+.footer__menu {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+@media only screen and (max-width: 576px) {
+    .footer__menu {
+        flex-direction: column;
+        margin: 0 0 48px 0;
+    }
+}

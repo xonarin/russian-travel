@@ -6,3 +6,17 @@
     text-align: center;
     margin: 0 auto 32px auto;
 }
+
+@media only screen and (max-width: 1024px) {
+    .lead__title {
+        padding: 0 24px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .lead__title {
+        font-size: calc(40px + (96 - 40) * ((100vw - 320px)/ (767 - 320)));
+        line-height: calc(100 / 96);
+        margin: 0 auto 32px auto;
+    }
+}

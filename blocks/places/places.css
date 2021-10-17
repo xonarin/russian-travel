@@ -2,3 +2,21 @@
     max-width: 984px;
     padding: 92px 48px 0 48px;
 }
+
+@media only screen and (max-width: 1024px) {
+    .places {
+        padding: 88px 24px 0 24px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .places {
+        padding: 64px 24px 0 24px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .places {
+        padding: 64px 0 0 0;
+    }
+}

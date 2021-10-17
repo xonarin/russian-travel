@@ -1,4 +1,4 @@
-.cover__title  {
+.cover__title {
     max-width: 560px;
     color: #fff;
     font-size: 72px;
@@ -7,3 +7,13 @@
     text-align: center;
     margin: 0 0 32px 0;
 }
+
+
+@media only screen and (max-width: 767px) {
+    .cover__title {
+        font-size: calc(32px + (72 - 32) * ((100vw - 320px)/ (767 - 320)));
+        line-height: calc(76 / 72);
+        margin: 0 0 16px 0;
+    }
+}
+
