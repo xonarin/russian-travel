@@ -1,14 +1,14 @@
 .place__link {
     position: relative;
     color: #fff;
-    font-style: 18px;
+    font-size: 18px;
     line-height: 22px;
     text-decoration: none;
     transition: opacity .2s ease-out;
 }
 
 .place__link:hover {
-    opacity: .4;
+    opacity: .8;
 }
 
 .place__link::before {

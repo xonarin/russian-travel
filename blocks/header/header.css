@@ -2,7 +2,5 @@
     display: flex;
     justify-content: space-between;
     max-width: 1184px;
-    padding-top: 28px;
     padding: 28px 48px 0 48px;
-    margin: 0 auto;
 }
