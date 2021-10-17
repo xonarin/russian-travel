@@ -23,6 +23,6 @@
         font-size: calc(16px + (30 - 16) * ((100vw - 320px)/ (767 - 320)));
         line-height: calc(36 / 30);
         padding: 0 16px;
-        margin: 0 auto 56px auto;
+        margin: 0 auto calc(40px + (56 - 40) * ((100vw - 320px)/ (767 - 320))) auto;
     }
 }
