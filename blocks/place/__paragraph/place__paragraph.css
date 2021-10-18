@@ -8,7 +8,7 @@
     margin: 0;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1023px) {
     .place__paragraph {
         font-size: calc(16px + (18 - 16) * ((100vw - 768px)/ (1024 - 767)));
         line-height: calc(29 / 18);
