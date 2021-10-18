@@ -1,5 +1,6 @@
 .page {
     width: 100%;
+    min-width: 320px;
     margin: 0 auto;
     color: #fff;
     background-color: #2A2C2F;

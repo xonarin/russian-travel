@@ -11,8 +11,8 @@
 
 @media only screen and (max-width: 767px) {
     .cover__title {
-        font-size: calc(32px + (72 - 32) * ((100vw - 320px)/ (767 - 320)));
-        line-height: calc(76 / 72);
+        font-size: 32px;
+        line-height: 35px;
         margin: 0 0 16px 0;
     }
 }

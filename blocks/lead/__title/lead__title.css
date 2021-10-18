@@ -15,8 +15,8 @@
 
 @media only screen and (max-width: 767px) {
     .lead__title {
-        font-size: calc(40px + (96 - 40) * ((100vw - 320px)/ (767 - 320)));
-        line-height: calc(100 / 96);
-        margin: 0 auto calc(16px + (32 - 16) * ((100vw - 320px)/ (767 - 320))) auto;
+        font-size: 40px;
+        line-height: 44px;
+        margin: 0 auto 16px auto;
     }
 }

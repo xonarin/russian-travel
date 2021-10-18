@@ -20,9 +20,9 @@
 
 @media only screen and (max-width: 767px) {
     .lead__subtitle {
-        font-size: calc(16px + (30 - 16) * ((100vw - 320px)/ (767 - 320)));
-        line-height: calc(36 / 30);
+        font-size: 16px;
+        line-height: 20px;
         padding: 0 16px;
-        margin: 0 auto calc(40px + (56 - 40) * ((100vw - 320px)/ (767 - 320))) auto;
+        margin: 0 auto 40px auto;
     }
 }

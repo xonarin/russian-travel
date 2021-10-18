@@ -7,16 +7,16 @@
 
 @media only screen and (max-width: 1023px) {
     .place__title {
-        font-size: calc(42px + (72 - 42) * ((100vw - 768px)/ (1024 - 767)));
-        line-height: calc(76 / 72);
+        font-size: 42px;
+        line-height: 46px;
         max-width: 288px;
     }
 }
 
 @media only screen and (max-width: 767px) {
     .place__title {
-        font-size: calc(32px + (42 - 32) * ((100vw - 320px)/ (767 - 320)));
-        line-height: calc(46 / 42);
+        font-size: 32px;
+        line-height: 35px;
     }
 }
 

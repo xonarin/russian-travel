@@ -11,8 +11,6 @@
 
 @media only screen and (max-width: 767px) {
     .intro {
-        padding-top: calc(64px + (88 - 64) * ((100vw - 320px)/ (767 - 320)));
-        padding-left: calc(16px + (24 - 16) * ((100vw - 320px)/ (767 - 320)));
-        padding-right: calc(16px + (24 - 16) * ((100vw - 320px)/ (767 - 320)));
+        padding: 64px 16px 0 16px;
     }
 }

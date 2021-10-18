@@ -7,7 +7,7 @@
 
 @media only screen and (max-width: 767px) {
     .intro__title  {
-        font-size: calc(32px + (54 - 32) * ((100vw - 320px)/ (767 - 320)));
-        line-height: calc(58 / 54);
+        font-size: 32px;
+        line-height: 35px;
     }
 }
