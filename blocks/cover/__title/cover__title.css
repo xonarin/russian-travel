@@ -11,9 +11,33 @@
 
 @media only screen and (max-width: 767px) {
     .cover__title {
-        font-size: 32px;
-        line-height: 35px;
+        font-size: 66px;
+        line-height: 69px;
         margin: 0 0 16px 0;
     }
 }
 
+@media only screen and (max-width: 580px) {
+    .cover__title {
+        font-size: 52px;
+        line-height: 55px;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .cover__title {
+        font-size: 45px;
+        line-height: 48px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .cover__title {
+        font-size: 32px;
+        line-height: 35px;
+    }
+}
+
+/* 
+font-size: 32px;
+line-height: 35px; */
